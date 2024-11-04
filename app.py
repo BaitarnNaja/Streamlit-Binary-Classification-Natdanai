@@ -69,7 +69,7 @@ def main():
     x_train, x_test, y_train, y_test = spliting_data(df)
     class_names = ['edible','poisonous']
     st.sidebar.subheader("Choose Classifiers")
-    classifier  = st.sidebar.selectbox("Classifier", ("Support Vectore Machine (SVM)", "Logistice Regression", "Random Forest"))
+    classifier  = st.sidebar.selectbox("Classifier", ("Support Vectore Machine (SVM)", "Logistic Regression", "Random Forest"))
 
 
      ############### Step 3 Train a SVM Classifier ##########
